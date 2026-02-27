@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/plaid/callback", "destination": "/api?__route=plaid/callback" },
+    { "source": "/api/logs", "destination": "/api?__route=logs" }
+  ]
+}
